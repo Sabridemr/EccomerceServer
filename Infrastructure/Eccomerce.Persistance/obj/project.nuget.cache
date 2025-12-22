@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1OT3C78FPasmp7yHw2f6saqXjBZf2c3chLDnJKJc/rnv15X0jIFUBQ35c4Rp5Hsns1XdPs4FQl0nB54uSqiQJA==",
+  "success": true,
+  "projectFilePath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
+  "expectedPackageFiles": [
+    "/Users/sabridemir/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.1/microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

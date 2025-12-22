@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Eccomerce.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Eccomerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eccomerce.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eccomerce.Application.dll": {}
+        }
+      },
+      "Eccomerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Eccomerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eccomerce.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.1": {
+      "sha512": "oIy8fQxxbUsSrrOvgBqlVgOeCtDmrcynnTG+FQufcUWBrwyPfwlUkCDB2vaiBeYPyT+20u9/HeuHeBf+H4F/8g==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Eccomerce.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Eccomerce.Application/Eccomerce.Application.csproj",
+      "msbuildProject": "../../Core/Eccomerce.Application/Eccomerce.Application.csproj"
+    },
+    "Eccomerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Eccomerce.Domain/Eccomerce.Domain.csproj",
+      "msbuildProject": "../../Core/Eccomerce.Domain/Eccomerce.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Eccomerce.Application >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sabridemir/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
+      "projectName": "Eccomerce.Persistance",
+      "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
+      "packagesPath": "/Users/sabridemir/.nuget/packages/",
+      "outputPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sabridemir/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj": {
+              "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

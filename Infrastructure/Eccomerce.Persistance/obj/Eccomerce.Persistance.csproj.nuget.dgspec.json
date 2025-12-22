@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj": {}
+  },
+  "projects": {
+    "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj",
+        "projectName": "Eccomerce.Application",
+        "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj",
+        "packagesPath": "/Users/sabridemir/.nuget/packages/",
+        "outputPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sabridemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/Eccomerce.Domain.csproj": {
+                "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/Eccomerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/Eccomerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/Eccomerce.Domain.csproj",
+        "projectName": "Eccomerce.Domain",
+        "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/Eccomerce.Domain.csproj",
+        "packagesPath": "/Users/sabridemir/.nuget/packages/",
+        "outputPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sabridemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
+        "projectName": "Eccomerce.Persistance",
+        "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
+        "packagesPath": "/Users/sabridemir/.nuget/packages/",
+        "outputPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sabridemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj": {
+                "projectPath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/Eccomerce.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
