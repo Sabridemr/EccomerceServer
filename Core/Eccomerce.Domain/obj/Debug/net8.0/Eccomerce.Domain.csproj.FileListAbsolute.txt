@@ -1,0 +1,12 @@
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/bin/Debug/net8.0/Eccomerce.Domain.deps.json
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/bin/Debug/net8.0/Eccomerce.Domain.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/bin/Debug/net8.0/Eccomerce.Domain.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.AssemblyInfoInputs.cache
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.AssemblyInfo.cs
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.csproj.CoreCompileInputs.cache
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.sourcelink.json
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/refint/Eccomerce.Domain.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/Eccomerce.Domain.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Domain/obj/Debug/net8.0/ref/Eccomerce.Domain.dll

@@ -12,6 +12,8 @@ namespace Eccomerce.API.Controllers
         {
             _productService = productService;
         }
+
+        [HttpGet]
         public IActionResult GetProducts()
         {
             var products = _productService.GetAllProducts();

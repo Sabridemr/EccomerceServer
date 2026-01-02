@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aPTkCUCHJyqdWgnhgqQlomOsa9V89SwhZa9w4vDG1a4=",
+  "Source": "Eccomerce.API",
+  "BasePath": "_content/Eccomerce.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

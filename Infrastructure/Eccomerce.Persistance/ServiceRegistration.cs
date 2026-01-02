@@ -9,7 +9,7 @@ namespace Eccomerce.Persistance
     {
         public static void AddPersistanceServices(this IServiceCollection services)
         {
-            services.AddSingleton<IProductService, ProductService>();
+            services.AddScoped<IProductService, ProductService>();
            
         }
         

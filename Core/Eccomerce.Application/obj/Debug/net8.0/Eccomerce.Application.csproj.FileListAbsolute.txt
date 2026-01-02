@@ -1,0 +1,16 @@
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/bin/Debug/net8.0/Eccomerce.Application.deps.json
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/bin/Debug/net8.0/Eccomerce.Application.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/bin/Debug/net8.0/Eccomerce.Application.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/bin/Debug/net8.0/Eccomerce.Domain.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/bin/Debug/net8.0/Eccomerce.Domain.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.csproj.AssemblyReference.cache
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.AssemblyInfoInputs.cache
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.AssemblyInfo.cs
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.csproj.CoreCompileInputs.cache
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.sourcelink.json
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.csproj.CopyComplete
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/refint/Eccomerce.Application.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/Eccomerce.Application.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Core/Eccomerce.Application/obj/Debug/net8.0/ref/Eccomerce.Application.dll
