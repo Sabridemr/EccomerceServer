@@ -1,4 +1,5 @@
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/bin/Debug/net8.0/Eccomerce.Persistance.deps.json
+/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/bin/Debug/net8.0/Eccomerce.Persistance.runtimeconfig.json
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/bin/Debug/net8.0/Eccomerce.Persistance.dll
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/bin/Debug/net8.0/Eccomerce.Persistance.pdb
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/bin/Debug/net8.0/Eccomerce.Application.dll
@@ -15,4 +16,5 @@
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/Debug/net8.0/Eccomerce.Persistance.dll
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/Debug/net8.0/refint/Eccomerce.Persistance.dll
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/Debug/net8.0/Eccomerce.Persistance.pdb
+/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/Debug/net8.0/Eccomerce.Persistance.genruntimeconfig.cache
 /Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/obj/Debug/net8.0/ref/Eccomerce.Persistance.dll

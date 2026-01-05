@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Eccomerce.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Eccomerce.Application": "1.0.0"
+        },
+        "runtime": {
+          "Eccomerce.Infrastructure.dll": {}
+        }
+      },
+      "Eccomerce.Application/1.0.0": {
+        "dependencies": {
+          "Eccomerce.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Eccomerce.Application.dll": {}
+        }
+      },
+      "Eccomerce.Domain/1.0.0": {
+        "runtime": {
+          "Eccomerce.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eccomerce.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eccomerce.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eccomerce.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
