@@ -1,5 +1,4 @@
 using Eccomerce.Persistance;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistanceServices();
