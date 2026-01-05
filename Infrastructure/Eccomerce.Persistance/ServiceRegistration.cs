@@ -13,7 +13,9 @@ namespace Eccomerce.Persistance
         
         public static void AddPersistanceServices(this IServiceCollection services)
         {
-            services.AddDbContext<EccomerDbContext>(options => options.UseNpgsql("Host=localhost;Port=5432;Database=Eccomerce_Db;UserName=admin;Password=sifre123"));    
+            
+            services.AddDbContext<EccomerDbContext>(options => options.UseNpgsql(Configurations.ConnectionString));    
+            
         }
         
     }

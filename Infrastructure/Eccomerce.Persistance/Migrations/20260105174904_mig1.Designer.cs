@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Eccomerce.Persistance.Migrations
 {
     [DbContext(typeof(EccomerDbContext))]
-    [Migration("20260105134742_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260105174904_mig1")]
+    partial class mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
