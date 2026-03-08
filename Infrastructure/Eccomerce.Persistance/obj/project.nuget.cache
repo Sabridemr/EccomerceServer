@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UR212FsACx8wHs4sVlUyrLosZtH+U4GD/imqU7Qso4Pz5uVgDB61hJfhDP01biEH6mA1nmIbPfg6DxT6eUJysQ==",
+  "dgSpecHash": "DZ60cBg7q7iAmOuIGhbs5TdVORs18CpL4fSyp33VM7fs6L6BluzapEVjLJW/5+gBCNx2qztkmWOvqsGmDZ52hg==",
   "success": true,
   "projectFilePath": "/Users/sabridemir/EccomerceProject/EccomerceServer/Infrastructure/Eccomerce.Persistance/Eccomerce.Persistance.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,9 @@
     "/Users/sabridemir/.nuget/packages/microsoft.codeanalysis.csharp/4.5.0/microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "/Users/sabridemir/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "/Users/sabridemir/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
-    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
-    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
-    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0/microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore/8.0.1/microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
+    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.1/microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
+    "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.1/microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",
     "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.design/8.0.0/microsoft.entityframeworkcore.design.8.0.0.nupkg.sha512",
     "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0/microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "/Users/sabridemir/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.0/microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512",

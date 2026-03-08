@@ -111,3 +111,15 @@
 /Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/System.Text.Json.dll
+/Users/sabridemir/EccomerceProject/EccomerceServer/Presentation/Eccomerce.API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
