@@ -19,5 +19,13 @@ namespace Eccomerce.API.Controllers
             var products = _productService.GetAllProducts();
             return Ok(products);
         }
+
+        [HttpGet]
+        public IActionResult GetProductById(int id)
+        {
+            var product = _productService.GetProductById(id);
+            return Ok(product);
+        }
+        
     }
 }
