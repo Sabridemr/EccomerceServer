@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Eccomerce.Persistance.Contexts
 {
-    public class EccomerDbContext:DbContext
+    public class EccomerceDbContext:DbContext
     {
-        public EccomerDbContext(DbContextOptions<EccomerDbContext> options):base(options)
+        public EccomerceDbContext(DbContextOptions<EccomerceDbContext> options):base(options)
         {}
 
         public DbSet<Product> Products { get; set; }

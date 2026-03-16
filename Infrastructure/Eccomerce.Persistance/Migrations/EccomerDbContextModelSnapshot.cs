@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Eccomerce.Persistance.Migrations
 {
-    [DbContext(typeof(EccomerDbContext))]
+    [DbContext(typeof(EccomerceDbContext))]
     partial class EccomerDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

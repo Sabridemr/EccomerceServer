@@ -6,13 +6,13 @@ using Microsoft.Extensions.Configuration;
 
 namespace Eccomerce.Persistance
 {
-    public class DesingTimeDbContextFactory : IDesignTimeDbContextFactory<EccomerDbContext>
+    public class DesingTimeDbContextFactory : IDesignTimeDbContextFactory<EccomerceDbContext>
     {
-        public EccomerDbContext CreateDbContext(string[] args)
+        public EccomerceDbContext CreateDbContext(string[] args)
         {
-            DbContextOptionsBuilder<EccomerDbContext> dbContextOptionsBuilder = new();
+            DbContextOptionsBuilder<EccomerceDbContext> dbContextOptionsBuilder = new();
             dbContextOptionsBuilder.UseNpgsql(Configurations.ConnectionString);
-            return new EccomerDbContext(dbContextOptionsBuilder.Options);
+            return new EccomerceDbContext(dbContextOptionsBuilder.Options);
         }
     }
 
