@@ -31,7 +31,14 @@ namespace Eccomerce.API.Controllers
             await _productWriteRepository.SaveAsync();
         }
 
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(string id)
+        { 
+            var product = await _productReadRepository.GetByIdAsync(id);
+            if (product == null)
+                return NotFound();
+            return Ok(product);
+        }
         
         
     }

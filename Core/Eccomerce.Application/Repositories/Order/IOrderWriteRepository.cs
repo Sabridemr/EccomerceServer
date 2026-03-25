@@ -8,6 +8,5 @@ namespace Eccomerce.Application.Repositories
 {
     public interface IOrderWriteRepository : IWriteRepository<Order>
     {
-        
     }
 }
