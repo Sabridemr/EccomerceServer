@@ -11,6 +11,7 @@ namespace Eccomerce.Persistance
                 ConfigurationManager configurationManager = new();
                 configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),"../../Presentation/Eccomerce.API"));
                 configurationManager.AddJsonFile("appsettings.json");
+                configurationManager.AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json", optional: true);
                 
                 return configurationManager.GetConnectionString("PostgreSqlConnection");
             }
