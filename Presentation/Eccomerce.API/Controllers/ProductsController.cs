@@ -1,5 +1,8 @@
+using System.Net;
 using System.Threading.Tasks;
 using Eccomerce.Application.Repositories;
+using Eccomerce.Application.ViewModels.Products;
+using Eccomerce.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eccomerce.API.Controllers
@@ -16,30 +19,60 @@ namespace Eccomerce.API.Controllers
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
        }
-       
-       [HttpGet]
-       public async Task Get()
-        {
-            await _productWriteRepository.AddRangeAsync(new()
-            {
-                    new() { Id = Guid.NewGuid(),Name = "Product 1", Price = 100, Stock = 10 },
-                    new() { Id = Guid.NewGuid(),Name = "Product 2", Price = 200, Stock = 20 },
-                    new() { Id = Guid.NewGuid(),Name = "Product 3", Price = 300, Stock = 30 },
-                    new() { Id = Guid.NewGuid(),Name = "Product 4", Price = 400, Stock = 40 },
-                    new() { Id = Guid.NewGuid(),Name = "Product 5", Price = 500, Stock = 50 }   
-            });
-            await _productWriteRepository.SaveAsync();
-        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id)
-        { 
-            var product = await _productReadRepository.GetByIdAsync(id);
-            if (product == null)
-                return NotFound();
-            return Ok(product);
+        {
+            return Ok(await _productReadRepository.GetByIdAsync(id,false));
         }
-        
-        
+
+       [HttpGet]
+       public async Task<IActionResult> Get()
+        {
+            return Ok(_productReadRepository.GetAll(false));
+          
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(Product model)
+        {
+            await _productWriteRepository.AddAsync(model);
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(VM_Create_Product product)
+        {
+            await _productWriteRepository.AddAsync(new()
+            {
+                Name = product.Name,
+                Price = product.Price,
+                Stock = product.Stock 
+                
+            });
+            await _productWriteRepository.SaveAsync();
+            return StatusCode((int)HttpStatusCode.Created);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put(VM_Update_Product model)
+        {
+            Product product = await _productReadRepository.GetByIdAsync(model.Id);
+            product.Stock = model.Stock;
+            product.Price = model.Price;
+            product.Name = model.Name;
+            await _productWriteRepository.SaveAsync(); 
+
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(string id)
+        {
+            await _productWriteRepository.RemoveAsync(id);
+            await _productWriteRepository.SaveAsync();
+            return Ok();
+        }
+
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eccomerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbe18b47262fa15205237205b2be17d6e3a35228")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+358b8f989ad715b50f1a68c23384105844260c60")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eccomerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eccomerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
